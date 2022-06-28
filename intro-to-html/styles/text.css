@@ -1,0 +1,55 @@
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(96, 96, 96);
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+    width: 280px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.stats, .author {
+    margin-bottom: 20px;
+}
+
+.description {
+    width: 280px;
+    line-height: 22px;
+    margin-bottom: 100px;
+}
+
+.apple {
+    margin-bottom: 50px;
+    font-size: 14px;
+    background-color: rgb(225, 64, 63);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.test {
+    font-family: Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+.test2 {
+    font-family: Tahoma, sans-serif;
+    font-size: 22px;
+    color: red;
+    font-style: italic;
+    margin-bottom: 100px;
+}

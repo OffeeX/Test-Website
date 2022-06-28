@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Youtube.com Clone</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<link rel="stylesheet" href="styles/general.css">
+<link rel="stylesheet" href="styles/header.css">
+<link rel="stylesheet" href="styles/video.css">
+<link rel="stylesheet" href="styles/sidebar.css">
+
+<body>
+<header class="header">
+  <div class="left-sec">
+    <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+    <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+  </div>
+  <div class="middle-sec">
+    <input class="search" type="text" placeholder="Search">
+    <button class="search-button">
+      <img class="search-icon" src="icons/search.svg" alt="">
+      <div class="tooltip">Search</div>
+    </button>
+    <button class="voice-search-button">
+      <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+      <div class="tooltip">Search with your voice</div>
+    </button>
+  </div>
+  <div class="right-sec">
+    <div class="container">
+      <img class="upload-icon" src="icons/upload.svg" alt="">
+      <div class="tooltip">Upload</div>
+    </div>
+    <div class="container">
+      <img class="apps-icon" src="icons/youtube-apps.svg" alt="">
+      <div class="tooltip">Youtube apps</div>
+    </div>
+    <div class="container">
+      <img class="notifications-icon" src="icons/notifications.svg" alt="">
+      <div class="notifications-count">3</div>
+      <div class="tooltip">Notifications</div>
+    </div>
+    <img class="channel-pic" src="pics/my-channel.jpeg" alt="">
+  </div>
+</header>
+
+<nav class="sidebar">
+  <div class="link">
+    <img src="icons/home.svg">
+    <div class="linktext">Home</div>
+  </div>
+  <div class="link">
+    <img src="icons/explore.svg">
+    <div class="linktext">Explore</div>
+  </div>
+  <div class="link">
+    <img src="icons/subscriptions.svg">
+    <div class="linktext">Subscriptions</div>
+  </div>
+  <div class="link">
+    <img src="icons/originals.svg">
+    <div class="linktext">Originals</div>
+  </div>
+  <div class="link">
+    <img src="icons/youtube-music.svg">
+    <div class="linktext">Youtube Music</div>
+  </div>
+  <div class="link">
+    <img src="icons/library.svg">
+    <div class="linktext">Library</div>
+  </div>
+</nav>
+
+<main>
+  <section class="grid">
+
+    <div class="preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="thumbnail">
+        </a>
+        <div class="time">14:20</div>
+      </div>
+      <div class="info-grid">
+        <div class="pic">
+          <img class="profile-pic" src="pics/channel-1.jpeg" alt="">
+          <div class="tooltip">
+            <img class="pfp" src="pics/channel-1.jpeg" alt="">
+            <div class="text">
+              <div class="name">Marques Brownlee</div>
+              <div class="count">15M subscribers</div>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <a class="title" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">Talking Tech and AI with Google CEO Sundar
+            Pichai!</a>
+          <a class="author">Marques Brownlee</a>
+          <a class="stats">3.4M views &#183; 6 months ago</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="thumbnail">
+        <div class="time">8:22</div>
+      </div>
+      <div class="info-grid">
+        <div class="pic">
+          <img class="profile-pic" src="pics/channel-2.jpeg" alt="">
+        </div>
+        <div class="content">
+          <a class="title">Try Not To Laugh Challenge #9</a>
+          <a class="author">Markiplier</a>
+          <a class="stats">19M views &#183; 4 years ago</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="thumbnail">
+        <div class="time">9:13</div>
+      </div>
+      <div class="info-grid">
+        <div class="pic">
+          <img class="profile-pic" src="pics/channel-3.jpeg" alt="">
+        </div>
+        <div class="content">
+          <a class="title">Talking Tech and AI with Google CEO Sundar Pichai!</a>
+          <a class="author">Marques Brownlee</a>
+          <a class="stats">3.4M views &#183; 6 months ago</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="thumbnail">
+        <div class="time">22:09</div>
+      </div>
+      <div class="info-grid">
+        <div class="pic">
+          <img class="profile-pic" src="pics/channel-4.jpeg" alt="">
+        </div>
+        <div class="content">
+          <a class="title">Try Not To Laugh Challenge #9</a>
+          <a class="author">Markiplier</a>
+          <a class="stats">19M views &#183; 4 years ago</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="thumbnail">
+        <div class="time">11:17</div>
+      </div>
+      <div class="info-grid">
+        <div class="pic">
+          <img class="profile-pic" src="pics/channel-5.jpeg" alt="">
+        </div>
+        <div class="content">
+          <a class="title">Talking Tech and AI with Google CEO Sundar Pichai!</a>
+          <a class="author">Marques Brownlee</a>
+          <a class="stats">3.4M views &#183; 6 months ago</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt="thumbnail">
+        <div class="time">19:59</div>
+      </div>
+      <div class="info-grid">
+        <div class="pic">
+          <img class="profile-pic" src="pics/channel-6.jpeg" alt="">
+        </div>
+        <div class="content">
+          <a class="title">Try Not To Laugh Challenge #9</a>
+          <a class="author">Markiplier</a>
+          <a class="stats">19M views &#183; 4 years ago</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</main>
+
+</body>
+</html>

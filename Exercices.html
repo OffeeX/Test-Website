@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ex</title>
+  <style>
+      * {
+          font-family: Arial, serif;
+          font-weight: bold;
+          color: black;
+      }
+      .container {
+          box-shadow: 0 0 5px black;
+          position: fixed;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          top: 0;
+          left: 0;
+          right: 0;
+          height: 60px;
+          padding: 0 70px;
+      }
+      .info {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          justify-content: space-between;
+          padding: 0 20px;
+      }
+      img {
+          height: 40px;
+          border-radius: 25px;
+      }
+      .buttons {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          justify-content: space-between;
+      }
+      button {
+          border: none;
+          background-color: #e7e7e7;
+          padding: 10px 15px;
+          border-radius: 7px;
+      }
+      .add {
+          background-color: royalblue;
+          color: white;
+          padding: 10px 10px;
+      }
+  </style>
+</head>
+<body style="height: 3000px">
+
+<div class="container">
+  <div class="info">
+    <img src="pics/pic.png" alt="">
+    <div class="name">Oliver Cat</div>
+  </div>
+  <div class="buttons">
+    <button class="add">Add Friend</button>
+    <button class="msg">Message</button>
+  </div>
+</div>
+
+</body>
+</html>
